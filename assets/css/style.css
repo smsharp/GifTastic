@@ -1,0 +1,58 @@
+body {
+	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.container {
+	text-align:center;
+}
+
+.emotionButton {
+  padding: 5px 10px;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #0a2c4e;
+  border: none;
+  margin: 5px 5px;
+}
+
+.emotionButton:hover {
+  background-color: #256bb3;
+}
+
+
+input[type="submit" i] {
+	background-color: #256bb3;
+	color: #fff;
+	font-size: 14px;
+	padding: 3px 10px;
+	border: none;
+}
+
+#button-row {
+	margin-bottom: 20px;
+}
+
+#gifRow {
+	margin-top: 20px;
+}
+
+.gifImage {
+	margin-bottom: 25px;
+	cursor: pointer;
+	max-width: 370px;
+}
+/*responsive styles*/
+@media (max-width: 1199px) {
+	.gifImage {
+		max-width: 300px;
+	}
+}
+
+@media (max-width: 336px) {
+	.gifImage {
+		max-width: 100%;
+	}
+}

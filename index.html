@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GifTastic</title>
+
+  	<!-- JQuery -->
+  	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  	<!-- adding javascript file -->
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
+
+	<!-- bootstrap cdn -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+  	<!-- CSS stylesheet -->
+  	<link rel="stylesheet" href="assets/css/style.css">
+
+	<!--font links-->
+  	<link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  	<!--viewport tag-->
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+	<div class= "container">
+		<h1>Life's too short. Express yourself with a Gif.</h1>
+		<h5>Click on any of the feelings below to find your gif. Don't find what's on your mind? Add more!</h5>
+
+	<div class="row" id="button-row">	
+		<div id= "emotionButtons">
+		</div>
+	</div>
+
+	<div class="row">
+		<form id="emotion-form">
+			<label for="emotion-input">Add an Emotion</label>
+			<input type="text" id="emotion-input">
+      		<!-- Button triggers new gif button to be added -->
+			<input id="addEmotion" type="submit" value="Submit">
+		</form>
+	</div>
+
+	<div class="row" id="gifRow">
+	<div id="emotionsDisplayed">
+		</div>
+
+	</div>
+
+	</div><!--container div-->
+</body>
+</html>
